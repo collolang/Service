@@ -1,0 +1,50 @@
+body{
+    background:linear-gradient(135deg,#0077b6,#00b4d8);
+}
+section{
+    
+    margin: 20px;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+header {
+    background-color:#ff6666;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-style:double;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px; 
+}
+h1{
+    font-size: 5rem;
+}
+button{
+     padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#b1:hover{
+     width:80px;
+      background-color:#339900;
+     
+}
+#b2{
+   margin-left: 1100px;
+    
+}
+#b2:hover{
+    width:60px;
+    background-color:#339900; 
+}
+.pay:hover{
+    background-color:#339900; 
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Naila Salon </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="order.css"/>
+        <script>
+              function Services(){
+               
+                    window.location.assign("file:///C:/Users/j/OneDrive/Documents/NetBeansProjects/naila/public_html/index.html"
+                            );
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to Naila salon</h1>   
+            <P>Your all time trusted Saloonist</p>
+        </header>
+        <section>
+            <h2>About our Service</h2>
+            <p>We offer quality services for all your needs.We've got you covered in all the sectors concerning a saloonist</p>
+        </section>
+        <section>
+            <h2>Selection of services</h2>
+            <p>Fill out the form yo register with us</p>
+            <form id='service'>
+                <label for="first">First Name</label>
+                <input type='text' id='first' name='name' required>
+                <label for="sec">Second Name</label>
+                <input type='text' id='sec' name='name' required>
+                  <label for="em">Email</label>
+                  <input type='text' id='em' name='email' required>
+                    <label for="phon">Phone Number</label>
+                <input type='number' id='phon' name='phone' required>
+               
+                
+            </form>
+        </section>
+        <input  type ="button" id="buttons" value="Submit" onclick="Services();">
+    </body>
+</html>

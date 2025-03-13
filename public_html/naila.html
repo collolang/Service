@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Services</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="naila.css"/>
+        <script>
+            function grat(){
+        alert("Payment has been made successful");
+        }
+        function back(){
+              window.location.assign("file:///C:/Users/j/OneDrive/Documents/NetBeansProjects/Order/public_html/index.html");
+    }
+        </script>
+        
+    </head>
+    <body>
+        <header>
+            <h1>Services Available</h1> 
+          </header>
+        <section>
+            <h2>Here are the services available.Select the services you would like to be offered</h2>
+            <input type='checkbox' name='hair' value=''>Hair Services <br>
+            <input type='checkbox' name='nail' value=''>Nail services<br>
+             <input type='checkbox' name='skin' value=''>Skin Care services<br>
+               <input type='checkbox' name='spa' value=''>Spa Services<br>
+        </section>
+        
+         <section>
+             <h2>Hair Services</h2>
+            <input type='checkbox' name='cuts' value=''>Haircuts and styling for men,women and children <br>
+            <input type='checkbox' name='coloring' value=''>Hair coloring<br>
+             <input type='checkbox' name='treatments' value=''>Hair treatments<br>
+               <input type='checkbox' name='extensions' value=''>Hair Extensions<br>
+               <input type='checkbox' name='perms' value=''>Perms and straightening<br>
+               <input type='checkbox' name='blowout' value=''>Blowout and updos for specila occasions<br>
+        </section>
+         <section>
+            <h2>Nail Services</h2>
+            <input type='checkbox' name='man' value=''>Manicures<br>
+            <input type='checkbox' name='ped' value=''>Pedicures<br>
+             <input type='checkbox' name='art' value=''>Nail art<br>
+               <input type='checkbox' name='rep' value=''>Nail repairs<br>
+        </section> <section>
+             <h2>Skin Care Services</h2>
+            <input type='checkbox' name='fac' value=''>Facials <br>
+            <input type='checkbox' name='pee' value=''>Skin peels and exfoliation<br>
+             <input type='checkbox' name='micro' value=''> Microdermabrasion<br>
+               <input type='checkbox' name='wax' value=''>waxing<br>
+               <input type='checkbox' name='eye' value=''>Eyelash extensions<br>
+                <input type='checkbox' name='mke' value=''>Makeup applications and lessons<br>
+        </section>
+         <section>
+            <h2>Spa Services</h2>
+            <input type='checkbox' name='mas' value=''>Massages <br>
+            <input type='checkbox' name='wra' value=''>Body wraps and scrubs<br>
+             <input type='checkbox' name='aro' value=''> Aromatherapy<br>
+               <input type='checkbox' name='st' value=''>Steam treatments<br>
+        </section>
+        <section>
+            <h2>Select the method of payment</h2>
+            <button class="pay">Mpesa</button>
+             <button class="pay">KCB</button>
+              <button class="pay">Equity</button>
+        </section>
+        
+        <section>
+            <h2>Finalization</h2>
+            <button id="b1" onclick="grat()">Checkout</button><br>
+             <button id="b2" onclick="back()">Back</button>
+        </section>
+        
+        
+    </body>
+</html>
